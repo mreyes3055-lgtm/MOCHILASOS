@@ -1,13 +1,29 @@
-MOCHILA S.O.S. — PROTOTIPO EDUCATIVO
+MOCHILAS S.O.S. — PROTOTIPO INTERACTIVO
 
+PARA ABRIR:
 1. Descomprime el ZIP.
-2. Abre index.html en un navegador moderno.
-3. Para probar GPS y compartir ubicación, publica los archivos en GitHub Pages o usa localhost (HTTPS requerido por muchos navegadores).
-4. Los datos de perfil, familia, listas y puntos de reunión se guardan en este navegador, no en una base de datos.
-5. La sirena emite un sonido local; NO contacta servicios de rescate.
-6. El mapa dentro de la app es ilustrativo; el enlace de ubicación abre OpenStreetMap con coordenadas reales cuando el dispositivo lo permite.
-7. Noticias: enlaces a fuentes oficiales, no un servicio de alertas en vivo.
-8. No sustituye indicaciones de autoridades ni atención médica.
+2. Abre index.html en Chrome, Edge o Firefox.
+3. Para usar el mapa, necesitas conexión a internet.
 
-ARCHIVOS: index.html, styles.css, app.js, manifest.webmanifest.
-Para CodePen, copia el contenido de index.html (sin referencias externas), styles.css y app.js a sus paneles correspondientes; o usa GitHub Pages con los cuatro archivos.
+PARA SUBIR A GITHUB PAGES:
+1. Crea un repositorio público en GitHub.
+2. Sube index.html y la carpeta assets (con logo.png) a la raíz del repositorio.
+3. Ve a Settings > Pages > Deploy from a branch > main / (root) > Save.
+4. Espera unos minutos y abre la URL publicada.
+
+FUNCIONES:
+- Pantalla de inicio, tarjetas de colores y navegación adaptable a celular.
+- Mochilas de emergencia por seis perfiles, listas interactivas y progreso guardado.
+- Registro local de integrantes de la familia.
+- Alarma audible (máximo 12 segundos, se puede detener antes).
+- Geolocalización con permiso y opción de compartir/copiar coordenadas.
+- Mapa real de OpenStreetMap, puntos de reunión personales guardados.
+- Guías y descripciones de fenómenos naturales.
+- Información educativa sobre medicamentos por edad y mascotas.
+- Enlaces a fuentes oficiales de Perú.
+- Centro de información en una sola pantalla.
+
+IMPORTANTE:
+Es un prototipo educativo. No se conecta automáticamente a rescatistas ni verifica que un lugar sea seguro. Los puntos del mapa son añadidos por el usuario. La ubicación GPS suele requerir HTTPS o localhost; al abrir index.html directamente puede no funcionar en algunos navegadores. GitHub Pages usa HTTPS. La carga de mapas necesita internet. Los enlaces de noticias abren sitios oficiales y no son alertas en vivo integradas.
+
+DISEÑO RESPONSIVE: esta versión se adapta a computadoras de escritorio, laptops, tablets y celulares. En computadora usa menú lateral y varias columnas; en celular usa navegación inferior.
