@@ -1,0 +1,13 @@
+MOCHILA S.O.S. — PROTOTIPO EDUCATIVO
+
+1. Descomprime el ZIP.
+2. Abre index.html en un navegador moderno.
+3. Para probar GPS y compartir ubicación, publica los archivos en GitHub Pages o usa localhost (HTTPS requerido por muchos navegadores).
+4. Los datos de perfil, familia, listas y puntos de reunión se guardan en este navegador, no en una base de datos.
+5. La sirena emite un sonido local; NO contacta servicios de rescate.
+6. El mapa dentro de la app es ilustrativo; el enlace de ubicación abre OpenStreetMap con coordenadas reales cuando el dispositivo lo permite.
+7. Noticias: enlaces a fuentes oficiales, no un servicio de alertas en vivo.
+8. No sustituye indicaciones de autoridades ni atención médica.
+
+ARCHIVOS: index.html, styles.css, app.js, manifest.webmanifest.
+Para CodePen, copia el contenido de index.html (sin referencias externas), styles.css y app.js a sus paneles correspondientes; o usa GitHub Pages con los cuatro archivos.
